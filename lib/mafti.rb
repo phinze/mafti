@@ -37,6 +37,7 @@ class Mafti
 
   def as_hashes
     @data.inject([]) do |hashes, d|
+      d = d.dup
       hashes << @headers.inject({}) do |hash, head|  
         hash[head] = d.shift 
         hash
