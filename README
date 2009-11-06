@@ -39,3 +39,7 @@ From http://office.microsoft.com/en-us/access/HA100069051033.aspx
 
 This library is tiny and simple.  Import files in the above format into
 something sane.
+
+
+Ideas:
+ - Generic text format converter.....?
