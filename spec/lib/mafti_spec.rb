@@ -36,4 +36,20 @@ describe Mafti do
       end
     end
   end
+
+  describe '#as_hashes' do
+    it 'returns data as an array of hashes' do
+	  m = Mafti.new
+	  m.headers = ['a','b','c']
+	  m.data = [
+	    ['1','2','3'],
+	    ['4','5','6'],
+	  ]
+	  hashes = m.as_hashes
+	  hashes.should ==([
+	    {'a' => '1', 'b' => '2', 'c' => '3'},
+	    {'a' => '4', 'b' => '5', 'c' => '6'},
+	  ])
+	end
+  end
 end

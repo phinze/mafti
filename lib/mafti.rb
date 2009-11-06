@@ -35,11 +35,13 @@ class Mafti
     end
   end
 
-  def as_hash
-    @data.inject({}) do |hash, d|
-      @headers.each do |head|  
-        hash[head] = d.unshift 
+  def as_hashes
+    @data.inject([]) do |hashes, d|
+      hashes << @headers.inject({}) do |hash, head|  
+        hash[head] = d.shift 
+        hash
       end
+      hashes
     end
   end
 
