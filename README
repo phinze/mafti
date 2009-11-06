@@ -1,0 +1,41 @@
+Stupid text formats!  Everybody loves stupid text formats!  Right?
+
+What, you don't?  Well, Microsoft sure does:
+
+From http://office.microsoft.com/en-us/access/HA100069051033.aspx
+> Formatted files
+> 
+> In a formatted file, hyphens (-) and pipe characters (|) are used to organize
+> the content in a grid. The records appear as rows, and fields appear as
+> columns. The field names appear in the first row.
+> 
+> --------------------------------------------
+> |   ID    |         E-mail Address         |
+> --------------------------------------------
+> |       1 | nancy@northwindtraders.com     |
+> --------------------------------------------
+> |       2 | andrew@northwindtraders.com    |
+> --------------------------------------------
+> |       3 | jan@northwindtraders.com       |
+> --------------------------------------------
+> |       4 | mariya@northwindtraders.com    |
+> --------------------------------------------
+> |       5 | steven@northwindtraders.com    |
+> --------------------------------------------
+> |       6 | michael@northwindtraders.com   |
+> --------------------------------------------
+> |       7 | robert@northwindtraders.com    |
+> --------------------------------------------
+> |       8 | laura@northwindtraders.com     |
+> --------------------------------------------
+> |       9 | anne@northwindtraders.com      |
+> --------------------------------------------
+> 
+> You only have the option of creating a formatted file when you choose to
+> export the data in a table, query, form, or report along with the formatting.
+> A formatted file includes only those records and fields that are included in
+> the source object or displayed in the current view. Hidden columns and
+> filtered rows are not exported.
+
+This library is tiny and simple.  Import files in the above format into
+something sane.
